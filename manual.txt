@@ -1,0 +1,77 @@
+NAME
+    clementine — A modern music player and library organizer
+
+SYNOPSIS
+    clementine [options] [URL(s)]
+
+DESCRIPTION
+    This text file briefly documents the clementine commands.
+
+    This text file is based on the debian manual page because no plain text
+    version of it was available. The debian manual page was written for the
+    Debian distribution because the original program does not have one.
+
+    Clementine is a modern music player and library organizer.
+    It is inspired by Amarok 1.4 and is written to take advantage of Qt4.
+
+    Features:
+      • Search and play your local music library.
+      • Listen to internet radio from Last.fm, SomaFM and Magnatune.
+      • Tabbed playlists, import and export M3U, XSPF, PLS and ASX.
+      • Visualisations from projectM.
+      • Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC
+      • Edit tags on MP3 and OGG files, organise your music.
+      • Download missing album cover art from Last.fm.
+      • Cross-platform - works on Windows, Mac OS X and Linux.
+      • Native desktop notifications on Linux (libnotify) and Mac OS X (Growl).
+      • Supports MPRIS on Linux, or remote control using the command line.
+
+OPTIONS
+    The program follows the usual GNU command line syntax, with long
+    options starting with two dashes (`--'). A summary of options is
+    included below. For a complete description, see the Info files.
+
+    Player options:
+      -p, --play        Start playing the current playlist.
+      -t, --play-pause  Pause if playing, play if stopped.
+                        [At time of writing, the debian man page does not
+                         state the effect when paused.]
+      -u, --pause       Pause playback.
+      -s, --stop        Stop playback.
+      -r, --previous    Skip backwards in playlist.
+      -f, --next        Skip forwards in playlist.
+      -v, --volume V    Set the volume to V percent.
+      --volume-up       Increase the volume by 4%.
+      --volume-down     Decrease the volume by 4%..
+      --seek-to sec     Seek current track to an absolute position.
+      --seek-by sec     Seek current track by a relative amount.
+
+    Playlist options:
+      -a, --append Append files/URLs to the playlist.
+      -l, --load Loads files/URLs, replacing current playlist.
+      -k, --play-track n Play the n-th track in the playlist
+
+    Other options:
+      -h, --help Show summary of options.
+      -o, --show-osd Display the on-screen-display.
+      -e, --engine Select engine
+      -g, --language L Change the language
+
+AUTHORS
+
+    Clementine main developers :
+      • David Sansome <me@davidsansome.com>
+      • John Maguire <john.maguire@gmail.com>
+
+    The debian manual page was written by Thomas Pierson <web.pierson@gmail.com>
+    for the Debian system (and may be used by others). Permission is granted
+    to copy, distribute and/or modify this document under the terms of the
+    GNU General Public License, Version 3 any later version published by
+    the Free Software Foundation.
+
+    On Debian systems, the complete text of the GNU General Public License
+    can be found in /usr/share/common-licenses/GPL-3. It is also available
+    on the internet at http://www.gnu.org/licenses/gpl-3.0.txt .
+
+
+
